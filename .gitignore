@@ -147,3 +147,22 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon_
+._*
+
+# Vite build output (your final HTML/CSS/JS site bundle)
+dist/
+dist-ssr/
+
+# Code Editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
