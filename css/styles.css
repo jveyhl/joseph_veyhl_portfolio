@@ -1,20 +1,22 @@
 /* CUSTOM PROPERTIES 
 ---------------------------------------------*/
 :root {
-    --darkgrey:      #333333;
-    --whitesmoke:    #F5F5F5;
+    --darkgrey: #333333;
+    --whitesmoke: #F5F5F5;
     --darkslateblue: #483D8B;
-    --color-dark:    var(--darkgrey);
-    --color-light:   var(--whitesmoke);
+    --color-dark: var(--darkgrey);
+    --color-light: var(--whitesmoke);
     --color-primary: var(--darkslateblue);
 }
+
 /* Global Styles 
 ---------------------------------------------*/
 a {
     color: var(--color-dark);
 }
 
-.bg-dark a, .bg-primary a {
+.bg-dark a,
+.bg-primary a {
     color: var(--color-light);
 }
 
@@ -35,7 +37,15 @@ a {
 
 /* Header + Nav 
 ---------------------------------------------*/
-
+header {
+    height: 500px;
+    background-image:   linear-gradient(rgb(72 61 139 / 0.25), 
+                                        rgb(72 61 139 / 0.25)), 
+                        url(../images/bg-bookshelf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-light);
+}
 
 
 /* About 
@@ -55,6 +65,3 @@ a {
 
 /* Footer 
 ---------------------------------------------*/
-
-
-
