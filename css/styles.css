@@ -8,12 +8,22 @@
     --color-light:   var(--whitesmoke);
     --color-primary: var(--darkslateblue);
 }
-
-
 /* Global Styles 
 ---------------------------------------------*/
+.bg-dark {
+    background: var(--color-dark);
+    color: var(--color-light);
+}
 
+.bg-light {
+    background: var(--color-light);
+    color: var(--color-dark);
+}
 
+.bg-primary {
+    background: var(--color-primary);
+    color: var(--color-light);
+}
 
 /* Header + Nav 
 ---------------------------------------------*/
