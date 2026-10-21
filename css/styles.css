@@ -11,6 +11,27 @@
 
 /* Global Styles 
 ---------------------------------------------*/
+/* Start Alternative box model */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+/* End Alternative box model */
 a {
     color: var(--color-dark);
 }
@@ -39,9 +60,9 @@ a {
 ---------------------------------------------*/
 header {
     height: 500px;
-    background-image:   linear-gradient(rgb(72 61 139 / 0.25), 
-                                        rgb(72 61 139 / 0.25)), 
-                        url(../images/bg-bookshelf.jpg);
+    background-image: linear-gradient(rgb(72 61 139 / 0.25),
+            rgb(72 61 139 / 0.25)),
+        url(../images/bg-bookshelf.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--color-light);
