@@ -70,6 +70,7 @@ header {
                        url(../images/bg-bookshelf.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     color: var(--color-light);
 }
 /* About 
