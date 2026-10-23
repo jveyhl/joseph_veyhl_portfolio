@@ -82,6 +82,16 @@ header {
     background-position: bottom;
     color: var(--color-light);
 }
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list a {
+    display: inline-block;
+    padding: 20px;
+}
 /* About 
 ---------------------------------------------*/
 
