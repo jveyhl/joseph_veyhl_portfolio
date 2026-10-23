@@ -89,9 +89,11 @@ header {
 
 /* Projects 
 ---------------------------------------------*/
-
-
-
+.project-item {
+    border: 1px solid var(--color-primary);
+    padding: 20px;
+    margin-bottom: 10px;
+}
 /* Resume 
 ---------------------------------------------*/
 
