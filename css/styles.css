@@ -36,6 +36,10 @@ a {
     color: var(--color-dark);
 }
 
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
 .bg-dark a,
 .bg-primary a {
     color: var(--color-light);
@@ -60,6 +64,11 @@ a {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.content-wrap {
+    max-width: 800px;
+    padding: 30px;
+    margin: 0 auto;
 }
 /* Header + Nav 
 ---------------------------------------------*/
