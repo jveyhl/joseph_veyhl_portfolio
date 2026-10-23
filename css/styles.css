@@ -100,9 +100,16 @@ header {
 /* Projects 
 ---------------------------------------------*/
 .project-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     border: 1px solid var(--color-primary);
     padding: 20px;
     margin-bottom: 10px;
+    column-gap: 20px;
+}
+
+.project-item img {
+    width: 100%;
 }
 /* Resume 
 ---------------------------------------------*/
