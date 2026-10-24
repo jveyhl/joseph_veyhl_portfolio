@@ -83,6 +83,13 @@ header {
     color: var(--color-light);
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .nav-list {
     display: flex;
     justify-content: center;
@@ -113,9 +120,21 @@ header {
 }
 /* Resume 
 ---------------------------------------------*/
+.resume.content-wrap {
+    max-width: 1000px;
+    margin-bottom: 30px;
+}
 
+.resume-container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 30px;
+}
 
-
+.work-experience {
+    grid-row: 1 / 3;
+    grid-column: 2 / 3;
+}
 /* Footer 
 ---------------------------------------------*/
 footer {
