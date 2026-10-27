@@ -46,6 +46,10 @@ a {
     color: var(--color-dark);
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 h1 {
     font-family: "Ms Madi", cursive;
     font-weight: 400;
