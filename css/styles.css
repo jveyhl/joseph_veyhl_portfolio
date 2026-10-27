@@ -225,18 +225,22 @@ hgroup {
     margin-bottom: 30px;
 }
 
-.organization {
+.organization,
+.degree-field {
     font-style: italic;
 }
 
 .organization,
-.dates-worked {
+.dates-worked,
+.degree-field {
     margin: 0;
 }
 
 .organization,
 .dates-worked,
-.position {
+.position,
+.school,
+.degree-field {
     color: var(--color-primary);
 }
 
