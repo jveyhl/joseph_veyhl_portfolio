@@ -175,6 +175,11 @@ hgroup {
         1px 1px 0 #000;
 }
 
+@media screen and (orientation: portrait) {
+    header {
+        height: 50%;
+    }
+} 
 /* About 
 ---------------------------------------------*/
 
@@ -183,18 +188,22 @@ hgroup {
 /* Projects 
 ---------------------------------------------*/
 .project-item {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     border: 1px solid var(--color-primary);
     padding: 20px;
     margin-bottom: 10px;
-    column-gap: 20px;
 }
 
 .project-item img {
     width: 100%;
 }
 
+@media screen and (min-width: 750px) {
+    .project-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+}
 /* Resume 
 ---------------------------------------------*/
 .resume.content-wrap {
@@ -203,22 +212,11 @@ hgroup {
 }
 
 .resume-container {
-    display: grid;
-    grid-template-columns: 300px 1fr;
-    grid-template-rows: 300px 1fr;
-    gap: 30px;
     margin-top: 15px;
 }
 
 .resume h4 {
     margin-top: 20px;
-}
-
-.work-experience {
-    grid-row: 1 / 3;
-    grid-column: 2 / 3;
-    border-left: 1px solid var(--color-primary);
-    padding-left: 30px;
 }
 
 .job-item {
@@ -244,8 +242,33 @@ hgroup {
     color: var(--color-primary);
 }
 
-.profile {
-    border-bottom: 1px solid var(--color-primary);
+
+
+@media screen and (min-width: 900px) {
+    .resume-container {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-rows: 300px 1fr;
+        gap: 30px;
+    }
+
+    .work-experience {
+        grid-row: 1 / 3;
+        grid-column: 2 / 3;
+        border-left: 1px solid var(--color-primary);
+        padding-left: 30px;
+    }
+
+    .profile {
+        border-bottom: 1px solid var(--color-primary);
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .resume h3 {
+        border-bottom: 1px solid var(--color-primary);
+        margin-top: 30px;
+    }
 }
 
 /* Footer 
