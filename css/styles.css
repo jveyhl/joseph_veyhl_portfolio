@@ -264,3 +264,7 @@ footer {
     width: 35px;
     margin: 15px;
 }
+
+.copyright {
+    font-size: var(--font-size-small);
+}
