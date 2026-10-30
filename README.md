@@ -14,12 +14,6 @@ The goal of this challenge is to build a portfolio of work to showcase my skills
 
 - CSS variables
 
-## Table of Contents
-
-- [Deployed_Application](#deployed_application)
-- [Credits](#credits)
-- [License](#license)
-
 ## Deployed Application
 
 https://jveyhl.github.io/joseph_veyhl_portfolio/
