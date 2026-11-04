@@ -198,7 +198,7 @@ hgroup {
     width: 100%;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 750px) and (max-width: 899px){
     .project-item {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
