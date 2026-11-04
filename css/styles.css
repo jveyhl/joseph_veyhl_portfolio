@@ -94,7 +94,7 @@ h4 {
 }
 
 .content-wrap {
-    max-width: 800px;
+    max-width: 1000px;
     padding: 60px;
     margin: 0 auto;
 }
@@ -209,7 +209,6 @@ hgroup {
 /* Resume 
 ---------------------------------------------*/
 .resume.content-wrap {
-    max-width: 1000px;
     margin-bottom: 30px;
 }
 
