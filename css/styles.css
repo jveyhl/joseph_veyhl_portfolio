@@ -291,27 +291,17 @@ hgroup {
     display: inline;
 }
 
-@media screen and (min-width: 900px) {
-    .resume-container {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .profile,
-    .education,
-    .work-experience {
-        border-bottom: 1px solid var(--color-primary);
-    }
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
-@media screen and (max-width: 899px) {
-    .resume h3 {
-        border-bottom: 1px solid var(--color-primary);
-        margin-top: 30px;
-    }
+.profile,
+.education,
+.work-experience {
+    border-bottom: 1px solid var(--color-primary);
 }
-
 /* Footer 
 ---------------------------------------------*/
 footer {
