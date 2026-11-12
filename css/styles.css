@@ -241,6 +241,10 @@ hgroup {
 
 /* Resume 
 ---------------------------------------------*/
+#publications h3 {
+    margin-bottom: 20px;
+}
+
 .resume.content-wrap {
     margin-bottom: 30px;
 }
@@ -253,7 +257,8 @@ hgroup {
     margin-top: 20px;
 }
 
-.job-item {
+.job-item,
+.publication-item {
     margin-bottom: 30px;
 }
 
@@ -280,6 +285,12 @@ hgroup {
     color: var(--color-primary);
 }
 
+.publication-authors,
+.journal-title,
+.publication-journal {
+    display: inline;
+}
+
 @media screen and (min-width: 900px) {
     .resume-container {
         display: flex;
@@ -287,7 +298,9 @@ hgroup {
         gap: 30px;
     }
 
-    .profile, .education, .work-experience {
+    .profile,
+    .education,
+    .work-experience {
         border-bottom: 1px solid var(--color-primary);
     }
 }
